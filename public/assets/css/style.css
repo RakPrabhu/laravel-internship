@@ -1,0 +1,212 @@
+/* public/assets/css/style.css */
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0909bc;
+}
+.carousel-inner{
+    background-color: #020227a4;
+}
+
+.container {
+    margin-top: 20px;
+    border: none;
+}
+
+.card-header {
+    background-color: #4b6377;
+    color: #692ec2;
+}
+.card .card-body {
+    border: none; /* Remove border from the card-body */
+}
+.card-body {
+    background-color: #7cb7f5;
+}
+.card{
+    border: 10px;;
+}
+
+.table h1 {
+    color: #3490dc;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #243341;
+    color: #d4edda;
+    padding: 8px;
+}
+.table .thead .th{
+    color: #007bff;
+}
+table.table table-bordered{
+    border: 1px solid black;
+}
+.table tbody tr:hover {
+    background-color: #77aab8;
+}
+
+/* Styles for News section */
+.table h1 {
+    color: #007bff;
+    margin-top: 40px;
+}
+/* Add these styles to your existing style.css file */
+
+/* Styles for the News section */
+.table h1 {
+    color: #007bff;
+    margin-top: 40px;
+}
+/* styles.css */
+
+.table-with-bg {
+    background: linear-gradient(rgba(59, 58, 58, 0.7), rgba(40, 38, 38, 0.7)),
+                url('../img/nmamit.jpeg') center center no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+     /* Set text color to white or your preferred color */
+    padding: 20px; /* Add padding for better readability */
+    border: 1px solid black; /* Add a border to separate the content from the background */
+    color: rgb(11, 12, 12);
+}
+
+.table-with-bg1 {
+    background-size: cover; /* or 'contain' depending on your preference */
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: rgb(177, 150, 150);
+   
+}
+
+.news-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.news-item h3 {
+    color: #333;
+}
+
+.news-item h4 {
+    color: #555;
+}
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+}
+
+.card-header {
+    background-color: #3490dc;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 20px;
+
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+/* Add these styles to your existing style.css file */
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3490dc;
+   
+    padding: 15px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info span {
+    margin-right: 10px;
+}
+
+.user-info a {
+  
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.user-info a:hover {
+    text-decoration: underline;
+}
+
+
+/* Add any additional styling as needed */
+/* styles.css */
+
+.marquee-container {
+    overflow: hidden;
+   
+}
+
+.marquee-content {
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+h1.mt-4.mb-4 {
+    color: #433e3e; /* Change to your desired color (e.g., red) */
+}
+.news-item {
+    display: inline-block;
+    margin-right: 20px;
+    border: none; /* Add margin between news items for better readability */
+}
+@media (min-width: 768px) {
+    .table-with-bg {
+        max-width: 1600px; /* Set a maximum width for larger screens */
+        margin: 0 auto; /* Center the table on larger screens */
+    }
+    .table-with-bg1{
+        max-width: 1600px; /* Set a maximum width for larger screens */
+        margin: 0 auto; /* Center the table on larger screens */
+    }
+    .card-body{
+        max-width: 1600px; /* Set a maximum width for larger screens */
+        margin: 0 auto; /* Center the table on larger screens */
+    }
+}
+.table-bordered {
+    border-color: black;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid black;
+}

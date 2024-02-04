@@ -1,0 +1,77 @@
+/* public/css/styles.css */
+
+/* Center the login form on the page */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/');
+    backdrop-filter: blur(10px);
+    background-color: rgba(53, 50, 192, 0.2);
+    
+}
+
+/* Style the card (login container) */
+.card {
+    width: 100%;
+    max-width: 400px;
+    padding: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    background-color: rgba(77, 75, 215, 0.2);
+}
+
+/* Style the card header */
+.card-header {
+    background-color: #8c82c5;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 100px;
+}
+
+/* Style the form inputs */
+.form-control {
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 370px;
+    border-radius: 100px;
+}
+
+/* Style the "Remember Me" checkbox */
+.form-check-label {
+    margin-left: 10px;
+}
+
+/* Style the login button */
+.btn-primary {
+    background-color: #8827cd;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 100px;
+}
+
+/* Style the "Forgot Your Password?" link */
+.btn-link {
+    color: #007bff;
+    text-decoration: none;
+}
+/* Add a glass effect to the input field */
+.c {
+     /* Transparent white background color */
+    /* Adjust the blur radius as needed */
+    border: none; /* Remove the border if desired */
+    padding: 10px; /* Add padding for spacing */
+    color: #333; /* Text color */
+}
